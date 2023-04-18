@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Category and Tag data
 });
 
-// create new product
+// create new product - DO NOT CHANGE THIS FOR INSOMNIA
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// update product SEE OBJECT in LINE 22
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
